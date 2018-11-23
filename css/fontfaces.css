@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'A';
+  src: url("../css/fonts/A-Light.eot"), url("../css/fonts/A-Light.eot?#iefix") format("embedded-opentype"), url("../css/fonts/A-Light.woff2") format("woff2"), url("../css/fonts/A-Light.woff") format("woff"), url("../css/fonts/A-Light.ttf") format("truetype"), url("../css/fonts/A-Light.svg#A-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'A';
+  src: url("../css/fonts/A-LightItalic.eot"), url("../css/fonts/A-LightItalic.eot?#iefix") format("embedded-opentype"), url("../css/fonts/A-LightItalic.woff2") format("woff2"), url("../css/fonts/A-LightItalic.woff") format("woff"), url("../css/fonts/A-LightItalic.ttf") format("truetype"), url("../css/fonts/A-LightItalic.svg#A-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'A';
+  src: url("../css/fonts/A-Regular.eot"), url("../css/fonts/A-Regular.eot?#iefix") format("embedded-opentype"), url("../css/fonts/A-Regular.woff2") format("woff2"), url("../css/fonts/A-Regular.woff") format("woff"), url("../css/fonts/A-Regular.ttf") format("truetype"), url("../css/fonts/A-Regular.svg#A-Regular") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'A';
+  src: url("../css/fonts/A-RegularItalic.eot"), url("../css/fonts/A-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../css/fonts/A-RegularItalic.woff2") format("woff2"), url("../css/fonts/A-RegularItalic.woff") format("woff"), url("../css/fonts/A-RegularItalic.ttf") format("truetype"), url("../css/fonts/A-RegularItalic.svg#A-RegularItalic") format("svg");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'A';
+  src: url("../css/fonts/A-Bold.eot"), url("../css/fonts/A-Bold.eot?#iefix") format("embedded-opentype"), url("../css/fonts/A-Bold.woff2") format("woff2"), url("../css/fonts/A-Bold.woff") format("woff"), url("../css/fonts/A-Bold.ttf") format("truetype"), url("../css/fonts/A-Bold.svg#A-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'A';
+  src: url("../css/fonts/A-BoldItalic.eot"), url("../css/fonts/A-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../css/fonts/A-BoldItalic.woff2") format("woff2"), url("../css/fonts/A-BoldItalic.woff") format("woff"), url("../css/fonts/A-BoldItalic.ttf") format("truetype"), url("../css/fonts/A-BoldItalic.svg#A-BoldItalic") format("svg");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'SFM';
+  src: url("../css/fonts/SFM-Light.eot"), url("../css/fonts/SFM-Light.eot?#iefix") format("embedded-opentype"), url("../css/fonts/SFM-Light.woff2") format("woff2"), url("../css/fonts/SFM-Light.woff") format("woff"), url("../css/fonts/SFM-Light.ttf") format("truetype"), url("../css/fonts/SFM-Light.svg#SFM-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SFM';
+  src: url("../css/fonts/SFM-Regular.eot"), url("../css/fonts/SFM-Regular.eot?#iefix") format("embedded-opentype"), url("../css/fonts/SFM-Regular.woff2") format("woff2"), url("../css/fonts/SFM-Regular.woff") format("woff"), url("../css/fonts/SFM-Regular.ttf") format("truetype"), url("../css/fonts/SFM-Regular.svg#SFM-Regular") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SFM';
+  src: url("../css/fonts/SFM-Semibold.eot"), url("../css/fonts/SFM-Semibold.eot?#iefix") format("embedded-opentype"), url("../css/fonts/SFM-Semibold.woff2") format("woff2"), url("../css/fonts/SFM-Semibold.woff") format("woff"), url("../css/fonts/SFM-Semibold.ttf") format("truetype"), url("../css/fonts/SFM-Semibold.svg#SFM-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
