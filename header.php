@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
   <title>Brad Siefert | Product Designer</title>
   <meta charset="utf-8">
@@ -30,7 +30,7 @@
           <li class="nav-item"><a class="nav-link" href="/company/">Design Portfolio</a></li>
           <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
           <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="/contact-us/">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
         </ul>
       </div>
     </div>
