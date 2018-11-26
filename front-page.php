@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
   <title>Brad Siefert | Product Designer</title>
   <meta charset="utf-8">

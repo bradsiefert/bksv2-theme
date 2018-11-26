@@ -1,8 +1,6 @@
 <div class="block-secondary py-64 mb-64">
   <div class="container">
-
     <div class="row">
-
       <div class="offset-xl-1 col-xl-6 mb-32">
         <h1 class="text-primary">Request Consultation</h1>
         <h4>Let's chat</h4>
@@ -36,12 +34,7 @@
             </div>
           </div>
         </div>
-
-
-
       </div>
     </div>
-
-
   </div>
 </div>

@@ -1,14 +1,15 @@
 <?php get_header(); ?>
-<section id="content" role="main">
-<article id="post-0" class="post not-found">
-<header class="header">
-<h1 class="entry-title"><?php _e( 'Not Found', 'blankslate' ); ?></h1>
-</header>
-<section class="entry-content">
-<p><?php _e( 'Nothing found for the requested page. Try a search instead?', 'blankslate' ); ?></p>
-<?php get_search_form(); ?>
-</section>
-</article>
-</section>
-<?php get_sidebar(); ?>
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>404 Error.</h1>
+        <section class="entry-content">
+          <img src="<?= get_theme_file_uri("images/clueless-my-bad.gif") ?>" alt="">
+          <p><?php _e( 'Nothing found for the requested page. Try a search instead?' ); ?></p>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
 <?php get_footer(); ?>
