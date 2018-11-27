@@ -18,6 +18,11 @@ Template Post Type: post, portfolio
           <h2><?php the_title(); ?></h2>
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <?php the_content(); ?>
+          <div class="divider"></div>
+          <div class="text-left">
+            <?php previous_post_link('<strong>Read Next:</strong> %link', '%title', TRUE); ?>
+          </div>
+          <div class="divider"></div>
           <?php endwhile; else: ?>
           <p>Sorry, no posts matched your criteria.</p>
         </article>

@@ -10081,7 +10081,7 @@ small, .small {
 
 .landing-badge > .badge {
   position: absolute;
-  top: 24px;
+  top: 28px;
   right: 8px; }
 
 @media (max-width: 768px) {
