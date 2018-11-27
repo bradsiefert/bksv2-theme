@@ -7,7 +7,7 @@
       <?php get_template_part( 'partials/breadcrumbs'); ?>
 
       <h1><?php the_title(); ?></h1>
-      <p>About design, photography, productivity, and the things that frustrate me.</p>
+      <p>A blog about design, photography, productivity, and the things that frustrate me.</p>
 
   		<?php $wp_query->query('posts_per_page=5&cat=2&order=DESC' . '&paged='.$paged); while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
       <div class="box">

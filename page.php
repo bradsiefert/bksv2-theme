@@ -1,11 +1,9 @@
 <?php get_header(); ?>
 <main>
   <div class="container">
-
     <div class="row">
       <div class="col-sm-12">
         <?php get_template_part( 'partials/breadcrumbs'); ?>
-
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             <header class="header">

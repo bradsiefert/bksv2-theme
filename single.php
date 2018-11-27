@@ -1,5 +1,4 @@
 <?php get_header();?>
-
 <main>
   <div class="container skinny-contain">
     <div class="row justify-content-center">
