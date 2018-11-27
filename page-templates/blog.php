@@ -11,34 +11,33 @@
 
   		<?php $wp_query->query('posts_per_page=5&cat=2&order=DESC' . '&paged='.$paged); while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
       <div class="box">
-        <article>
-          <p class="blog-time"><?php the_time('Y/m/d g:ia') ?></p>
-      		<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-      		<?php the_excerpt(); ?>
+        <p class="blog-time"><?php the_time('Y/m/d g:ia') ?></p>
+    		<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+    		<?php the_excerpt(); ?>
 
-          <div class="btn-box">
-            <a class="btn btn-primary btn-xs" href="<?php the_permalink(); ?>">Read More</a>
-          </div>
-        </article>
+        <div class="btn-box">
+          <a class="btn btn-primary btn-xs" href="<?php the_permalink(); ?>">Read More</a>
+        </div>
       </div>
-
       <?php endwhile; ?>
+
   		<?php if ($paged > 1) { ?>
-
-  		<nav id="nav-posts">
-  			<div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
-  			<div class="next"><?php previous_posts_link('Newer Posts &raquo;'); ?></div>
-  		</nav>
-
+        <div class="row">
+          <div class="col-6">
+            <?php next_posts_link('Previous Posts'); ?>
+          </div>
+          <div class="col-6 text-right">
+            <?php previous_posts_link('Newer Posts'); ?>
+          </div>
+        </div>
   		<?php } else { ?>
-
-  		<nav id="nav-posts">
-  			<div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
-  		</nav>
-
+        <div class="row">
+          <div class="col-6">
+            <?php next_posts_link('Previous Posts'); ?>
+          </div>
+        </div>
   		<?php } ?>
 
-  		<?php wp_reset_postdata(); ?>
     </div>
   </div>
 </main>

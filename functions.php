@@ -1,8 +1,8 @@
 <?php
 
-// Shortening the excerpt to 96 words
+// Shortening the excerpt to a # of words
 add_filter( 'excerpt_length', function($length) {
-    return 80;
+    return 48;
 } );
 
 // Removing the [...] ellipses

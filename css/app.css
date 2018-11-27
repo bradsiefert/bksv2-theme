@@ -9789,6 +9789,15 @@ a.text-highlight:hover, a.text-highlight:focus {
 html, body {
   height: 100%; }
 
+html {
+  font-size: 1.15rem; }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 1.1rem; } }
+@media (min-width: 992px) {
+  html {
+    font-size: 1rem; } }
 body {
   background-color: white;
   letter-spacing: -0.1px;
@@ -9806,7 +9815,13 @@ body {
 
   .breadcrumb {
     border-top: 1px solid #333333 !important;
-    border-bottom: 1px solid #333333 !important; } }
+    border-bottom: 1px solid #333333 !important; }
+
+  .box a {
+    color: white !important; }
+
+  .box {
+    border: 1px solid #333333 !important; } }
 /* ---------- Navbar --------- */
 .navbar {
   min-height: 64px;
@@ -9825,6 +9840,10 @@ body {
   color: #FFFFFF;
   letter-spacing: 0;
   text-align: center; }
+
+.navbar-collapse {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 /* ---------- Footer --------- */
 main {
@@ -9854,7 +9873,7 @@ footer .list-inline-item:not(:last-child) {
   text-align: right; }
 
 @media (max-width: 767px) {
-  .right-then-left {
+  .text-right-then-left {
     text-align: left; } }
 .text-right-then-center {
   text-align: right; }
@@ -9962,11 +9981,11 @@ small, .small {
 .btn {
   font-family: "SFM";
   font-weight: 700;
-  font-size: .9375rem;
-  line-height: .9375rem;
+  font-size: .875rem;
+  line-height: .875rem;
   letter-spacing: 0;
   text-align: center;
-  padding: 6px 1.5rem 6px;
+  padding: 13px 1.5rem 11px;
   border-radius: 4px;
   color: white; }
 
@@ -9981,8 +10000,8 @@ small, .small {
   padding: 8px 1.5rem 7px; }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 16px 2rem 15px;
-  font-size: 1rem; }
+  font-size: 1rem;
+  padding: 16px 2rem; }
 
 .btn-outline,
 .btn-outline:hover {
@@ -10029,9 +10048,9 @@ small, .small {
 
 /* ---------- Landing Page --------- */
 .landing-hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/hero-bg3.jpg");
   background-size: cover;
-  background-position: center bottom; }
+  background-position: center 20%; }
 
 .landing-hero .navbar {
   background-color: rgba(255, 255, 255, 0);
@@ -10102,22 +10121,20 @@ small, .small {
   max-width: 768px; }
 
 .box {
-  background: white;
   border: 1px solid #eeeeee;
   padding: 1.5rem 3rem 2rem;
   font-family: "SFM";
   font-size: .875rem;
-  color: #121212;
   letter-spacing: 0;
-  line-height: 21px;
+  line-height: 1.5;
   margin-bottom: 2rem;
   position: relative; }
 
-.box a {
-  color: #121212 !important; }
+.box h3 a {
+  color: #121212; }
 
-.box .btn {
-  color: white !important; }
+.box h3 a:hover {
+  color: #2ac9ff; }
 
 .btn-box {
   position: absolute;
@@ -10143,10 +10160,33 @@ small, .small {
   font-size: 1.25rem;
   line-height: 1.4; }
 
+.blog-post p {
+  margin-bottom: 1.5rem; }
+
 .blog-post img {
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
-.blog-post h1,
-.blog-post .h1 {
+/* ---------- Contact Page --------- */
+.form-control {
+  font-family: "SFM";
+  font-size: .875rem;
+  height: 48px; }
+
+.form-group label {
+  font-weight: 600; }
+
+.wpcf7 .screen-reader-response {
+  display: none; }
+
+.wpcf7-mail-sent-ok {
+  font-size: .8125rem;
+  line-height: 1.6;
+  padding: 6px 16px;
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-family: "SFM";
+  font-weight: 600;
+  background-color: #2ac9ff;
   margin-bottom: 1rem; }
