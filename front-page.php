@@ -143,7 +143,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <img class="mb-32" style="width: 128px;" src="<?= get_theme_file_uri("images/logo-spartz.png") ?>" alt="Spartz Media Logo">
+        <img class="mb-16" style="width: 104px;" src="<?= get_theme_file_uri("images/logo-spartz.png") ?>" alt="Spartz Media Logo">
         <div class="display-3 mb-32">
           Previously, I was a designer at Spartz Media (now <a target="_blank" href="https://dose.com/">Dose</a>) where
           we created  viral content websites and apps. I helped create logos, web design and helped out with front-end

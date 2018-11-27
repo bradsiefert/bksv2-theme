@@ -74,6 +74,32 @@ html, body {
   height: 100%;
 }
 
+body {
+  background-color: $white;
+  letter-spacing: -0.1px;
+  display: flex;
+  flex-direction: column;
+  font-family: "C";
+  font-size: 1rem;
+  color: $gray-900;
+  letter-spacing: -0.1px;
+}
+
+a:active {
+  position: relative;
+  top: 2px;
+}
+
+// a:hover {
+//   color: #1aace5;
+//   text-decoration: none;
+//   -webkit-transition: text-shadow .5s ease-out,background .5s ease-out;
+//   -moz-transition: text-shadow .5s ease-out,background .5s ease-out;
+//   -o-transition: text-shadow .5s ease-out,background .5s ease-out;
+//   transition: text-shadow .5s ease-out,background .5s ease-out;
+//   text-shadow: 0 0 4px rgba(26,172,229,0.85)
+// }
+
 @include media-breakpoint-up(xs) {
   html {
     font-size: 1.15rem;
@@ -90,17 +116,6 @@ html, body {
   html {
     font-size: 1rem;
   }
-}
-
-body {
-  background-color: $white;
-  letter-spacing: -0.1px;
-  display: flex;
-  flex-direction: column;
-  font-family: "C";
-  font-size: 1rem;
-  color: $gray-900;
-  letter-spacing: -0.1px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -120,6 +135,16 @@ body {
 
   .box {
     border: 1px solid $gray-800 !important;
+  }
+
+  .form-control,
+  .form-control:focus,
+  .form-control::placeholder {
+    color: $white;
+  }
+
+  .divider {
+    border-bottom: 1px solid $gray-800 !important;
   }
 }
 
@@ -245,9 +270,9 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-weight: 500;
   font-size: .8125rem;
-  color: #85BFFF;
+  font-weight: 600;
+  color: $primary;
   letter-spacing: 1.5px;
   line-height: 1.25rem;
   text-transform: uppercase;
@@ -256,9 +281,9 @@ h4, .h4 {
 h5, .h5 {
   font-family: "SFM";
   font-weight: 600;
+  color: $primary;
   font-size: .875rem;
   letter-spacing: 0.2px;
-  color: #2AC9FF;
   text-transform: uppercase;
   line-height: 1.125rem;
 }
@@ -267,7 +292,6 @@ h6, .h6 {
   font-family: "C";
   font-weight: 700;
   font-size: .875rem;
-  color: #021B36;
   letter-spacing: -0.1px;
   line-height: 1.125rem;
   margin-bottom: .25rem;
@@ -301,7 +325,7 @@ small, .small {
   line-height: .875rem;
   letter-spacing: 0;
   text-align: center;
-  padding: 13px 1.5rem 11px;
+  padding: 12px 1.5rem;
   border-radius: 4px;
   color: $white;
 }
@@ -360,6 +384,12 @@ small, .small {
   .breadcrumb {
     padding-left: 1rem;
   }
+}
+
+.divider {
+  border-bottom: 1px solid $gray-200;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* ---------- Badges --------- */
@@ -477,7 +507,7 @@ small, .small {
 
 .box {
   border: 1px solid $gray-200;
-  padding: 1.5rem 3rem 2rem;
+  padding: 1.5rem 2.5rem 2rem;
   font-family: "SFM";
   font-size: .875rem;
   letter-spacing: 0;
@@ -535,12 +565,23 @@ small, .small {
   margin-bottom: 1rem;
 }
 
+.portfolio-post img {
+  margin-bottom: 1rem;
+}
+
 /* ---------- Contact Page --------- */
 
-.form-control {
+.form-control,
+.form-control:focus {
   font-family: "SFM";
   font-size: .875rem;
   height: 48px;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+}
+
+textarea.form-control {
+  min-height: 256px;
 }
 
 .form-group label {

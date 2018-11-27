@@ -9789,15 +9789,6 @@ a.text-highlight:hover, a.text-highlight:focus {
 html, body {
   height: 100%; }
 
-html {
-  font-size: 1.15rem; }
-
-@media (min-width: 576px) {
-  html {
-    font-size: 1.1rem; } }
-@media (min-width: 992px) {
-  html {
-    font-size: 1rem; } }
 body {
   background-color: white;
   letter-spacing: -0.1px;
@@ -9808,6 +9799,19 @@ body {
   color: #121212;
   letter-spacing: -0.1px; }
 
+a:active {
+  position: relative;
+  top: 2px; }
+
+html {
+  font-size: 1.15rem; }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 1.1rem; } }
+@media (min-width: 992px) {
+  html {
+    font-size: 1rem; } }
 @media (prefers-color-scheme: dark) {
   body {
     color: white;
@@ -9821,7 +9825,15 @@ body {
     color: white !important; }
 
   .box {
-    border: 1px solid #333333 !important; } }
+    border: 1px solid #333333 !important; }
+
+  .form-control,
+  .form-control:focus,
+  .form-control::placeholder {
+    color: white; }
+
+  .divider {
+    border-bottom: 1px solid #333333 !important; } }
 /* ---------- Navbar --------- */
 .navbar {
   min-height: 64px;
@@ -9936,9 +9948,9 @@ h3, .h3 {
   line-height: 2rem; }
 
 h4, .h4 {
-  font-weight: 500;
   font-size: .8125rem;
-  color: #85BFFF;
+  font-weight: 600;
+  color: #2ac9ff;
   letter-spacing: 1.5px;
   line-height: 1.25rem;
   text-transform: uppercase; }
@@ -9946,9 +9958,9 @@ h4, .h4 {
 h5, .h5 {
   font-family: "SFM";
   font-weight: 600;
+  color: #2ac9ff;
   font-size: .875rem;
   letter-spacing: 0.2px;
-  color: #2AC9FF;
   text-transform: uppercase;
   line-height: 1.125rem; }
 
@@ -9956,7 +9968,6 @@ h6, .h6 {
   font-family: "C";
   font-weight: 700;
   font-size: .875rem;
-  color: #021B36;
   letter-spacing: -0.1px;
   line-height: 1.125rem;
   margin-bottom: .25rem; }
@@ -9985,7 +9996,7 @@ small, .small {
   line-height: .875rem;
   letter-spacing: 0;
   text-align: center;
-  padding: 13px 1.5rem 11px;
+  padding: 12px 1.5rem;
   border-radius: 4px;
   color: white; }
 
@@ -10034,6 +10045,11 @@ small, .small {
 @media (max-width: 767px) {
   .breadcrumb {
     padding-left: 1rem; } }
+.divider {
+  border-bottom: 1px solid #eeeeee;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
 /* ---------- Badges --------- */
 .badge {
   font-family: "SFM";
@@ -10122,7 +10138,7 @@ small, .small {
 
 .box {
   border: 1px solid #eeeeee;
-  padding: 1.5rem 3rem 2rem;
+  padding: 1.5rem 2.5rem 2rem;
   font-family: "SFM";
   font-size: .875rem;
   letter-spacing: 0;
@@ -10167,11 +10183,20 @@ small, .small {
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
+.portfolio-post img {
+  margin-bottom: 1rem; }
+
 /* ---------- Contact Page --------- */
-.form-control {
+.form-control,
+.form-control:focus {
   font-family: "SFM";
   font-size: .875rem;
-  height: 48px; }
+  height: 48px;
+  background-color: transparent;
+  padding: 0.5rem 1rem; }
+
+textarea.form-control {
+  min-height: 256px; }
 
 .form-group label {
   font-weight: 600; }

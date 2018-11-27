@@ -9,7 +9,7 @@
       <h1><?php the_title(); ?></h1>
       <p>A blog about design, photography, productivity, and the things that frustrate me.</p>
 
-  		<?php $wp_query->query('posts_per_page=5&cat=2&order=DESC' . '&paged='.$paged); while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+  		<?php $wp_query->query('posts_per_page=4&cat=2&order=DESC' . '&paged='.$paged); while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
       <div class="box">
         <p class="blog-time"><?php the_time('Y/m/d g:ia') ?></p>
     		<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
@@ -24,16 +24,16 @@
   		<?php if ($paged > 1) { ?>
         <div class="row">
           <div class="col-6">
-            <?php next_posts_link('Previous Posts'); ?>
+            <strong><?php next_posts_link('Previous Posts'); ?></strong>
           </div>
           <div class="col-6 text-right">
-            <?php previous_posts_link('Newer Posts'); ?>
+            <strong><?php previous_posts_link('Newer Posts'); ?></strong>
           </div>
         </div>
   		<?php } else { ?>
         <div class="row">
           <div class="col-6">
-            <?php next_posts_link('Previous Posts'); ?>
+            <strong><?php next_posts_link('Previous Posts'); ?></strong>
           </div>
         </div>
   		<?php } ?>

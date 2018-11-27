@@ -1,5 +1,9 @@
 <?php
 
+
+// Adding post thumbnail
+add_theme_support( 'post-thumbnails' );
+
 // Shortening the excerpt to a # of words
 add_filter( 'excerpt_length', function($length) {
     return 48;
