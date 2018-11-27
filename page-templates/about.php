@@ -2,17 +2,10 @@
 
 <main>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="breadcrumb">
-          <div class="breadcrumb-item"><a href="">Home</a></div>
-          <div class="breadcrumb-item">About Me</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
+    <div class="row about">
       <div class="col-md-7 col-lg-8 text-justify">
+        <?php get_template_part( 'partials/breadcrumbs'); ?>
+
         <h2 class="h1">I promise this won’t be in the third person.</h2>
         <p>
           Hi, my name is Brad and I’m a product designer specializing in user experience, user interface, and front-end

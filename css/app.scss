@@ -79,12 +79,10 @@ body {
   letter-spacing: -0.1px;
   display: flex;
   flex-direction: column;
-
   font-family: "C";
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: $gray-900;
   letter-spacing: -0.1px;
-  line-height: 30px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -150,8 +148,11 @@ footer .list-inline-item:not(:last-child) {
 /* ---------- Typography --------- */
 .text-right-then-left   { text-align: right;	}
 @media (max-width: 767px) { .right-then-left   { text-align: left;   } }
+.text-right-then-center   { text-align: right;	}
+@media (max-width: 767px) { .text-right-then-center   { text-align: center; } }
 
-p {
+.about p {
+  font-size: 1.25rem;
   margin-bottom: 1.5rem;
 }
 
@@ -194,27 +195,22 @@ h1, .h1 {
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 0;
-  margin-bottom: 1rem;
 }
 
 h2, .h2 {
   font-family: "C";
   font-weight: 700;
   font-size: 1.75rem;
-  color: #FFFFFF;
   letter-spacing: 0;
   line-height: 2.5rem;
-  margin-bottom: 1rem;
 }
 
 h3, .h3 {
   font-family: "C";
   font-weight: 700;
   font-size: 1.5rem;
-  color: #FFFFFF;
   letter-spacing: 0;
   line-height: 2rem;
-  margin-bottom: 1rem;
 }
 
 h4, .h4 {
@@ -224,7 +220,6 @@ h4, .h4 {
   letter-spacing: 1.5px;
   line-height: 1.25rem;
   text-transform: uppercase;
-  margin-bottom: .5rem;
 }
 
 h5, .h5 {
@@ -235,7 +230,6 @@ h5, .h5 {
   color: #2AC9FF;
   text-transform: uppercase;
   line-height: 1.125rem;
-  margin-bottom: .5rem;
 }
 
 h6, .h6 {
@@ -277,7 +271,20 @@ small, .small {
   letter-spacing: 0;
   text-align: center;
   padding: 6px 1.5rem 6px;
+  border-radius: 4px;
   color: $white;
+}
+
+.btn-xs {
+  font-size: .6875rem;
+  font-weight: 700;
+  padding: 4px 1rem 3px;
+}
+
+.btn-sm {
+  font-size: .8125rem;
+  font-weight: 700;
+  padding: 8px 1.5rem 7px;
 }
 
 .btn-lg {
@@ -315,6 +322,13 @@ small, .small {
   border-bottom: 1px solid $gray-200;
   padding: .5rem 1rem;
   margin-bottom: 2rem;
+  padding-left: 0;
+}
+
+@media (max-width: 767px) {
+  .breadcrumb {
+    padding-left: 1rem;
+  }
 }
 
 /* ---------- Badges --------- */
@@ -423,4 +437,72 @@ small, .small {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 4rem;
+}
+
+/* ---------- Blog --------- */
+.skinny-contain {
+  max-width: 768px;
+}
+
+.box {
+  background: $white;
+  border: 1px solid $gray-200;
+  padding: 1.5rem 3rem 2rem;
+  font-family: "SFM";
+  font-size: .875rem;
+  color: $gray-900;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.box a {
+  color: $gray-900 !important;
+}
+
+.box .btn {
+  color: $white !important;
+}
+
+.btn-box {
+  position: absolute;
+  bottom: 16px;
+  right: 24px;
+}
+
+@media (max-width: 767px) {
+  .box {
+    padding: 1rem 2rem 1.5rem;
+  }
+
+  .btn-box {
+    position: static;
+    bottom: 0;
+    right: 0;
+  }
+
+  .btn-box a {
+    width: 100%;
+  }
+}
+
+.blog-time {
+  font-size: .75rem;
+  font-family: "SFM";
+}
+
+.blog-post {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.blog-post img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blog-post h1,
+.blog-post .h1, {
+  margin-bottom: 1rem;
 }
