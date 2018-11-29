@@ -12,7 +12,7 @@
           </div></span> and semi-pro <span class="landing-badge">photographer <div class="badge badge-success">
             My Passion</div></span> based in Chicago, IL.
         </div>
-        <a href="/portfolio/" class="btn btn-outline btn-primary btn-lg mb-16">Design Work</a>
+        <a href="portfolio/" class="btn btn-outline btn-primary btn-lg mb-16">Design Work</a>
         <a target="_blank" href="https://bradleysiefert.com" class="btn btn-outline btn-success btn-lg mb-16">
           Photo Work
         </a>

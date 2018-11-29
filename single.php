@@ -4,8 +4,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-12 blog-post">
         <div class="breadcrumb">
-          <div class="breadcrumb-item"><a href="#">Home</a></div>
-          <div class="breadcrumb-item"><a href="/blog/">Blog</a></div>
+          <div class="breadcrumb-item"><a href="/">Home</a></div>
+          <div class="breadcrumb-item"><a href="blog/">Blog</a></div>
           <div class="breadcrumb-item"><?php the_title(); ?></div>
         </div>
         <article>
