@@ -90,16 +90,6 @@ a:active {
   top: 2px;
 }
 
-// a:hover {
-//   color: #1aace5;
-//   text-decoration: none;
-//   -webkit-transition: text-shadow .5s ease-out,background .5s ease-out;
-//   -moz-transition: text-shadow .5s ease-out,background .5s ease-out;
-//   -o-transition: text-shadow .5s ease-out,background .5s ease-out;
-//   transition: text-shadow .5s ease-out,background .5s ease-out;
-//   text-shadow: 0 0 4px rgba(26,172,229,0.85)
-// }
-
 @include media-breakpoint-up(xs) {
   html {
     font-size: 1.15rem;
@@ -145,6 +135,10 @@ a:active {
 
   .divider {
     border-bottom: 1px solid $gray-800 !important;
+  }
+
+  .portfolio-post img {
+    border: none !important;
   }
 }
 
@@ -313,6 +307,25 @@ small, .small {
   font-family: "C";
   font-weight: 500;
   font-style: italic;
+}
+
+blockquote {
+  margin: 1rem 0 1.5rem;
+  background-color: #fafafa;
+  padding: 1.25rem 1rem .5rem;
+  font-style: italic;
+}
+
+blockquote {
+  p {
+    margin-bottom: 1rem !important;
+  }
+
+  p:last-of-type {
+    font-style: normal;
+    font-weight: 500;
+    font-size: .875rem;
+  }
 }
 
 /* ---------- Buttons --------- */
@@ -554,7 +567,7 @@ small, .small {
 
 .blog-post {
   font-size: 1.25rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .blog-post p {
@@ -568,6 +581,7 @@ small, .small {
 
 .portfolio-post img {
   margin-bottom: 1rem;
+  border: 1px solid #fafafa;
 }
 
 /* ---------- Contact Page --------- */

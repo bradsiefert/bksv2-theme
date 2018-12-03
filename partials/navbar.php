@@ -17,10 +17,10 @@
 
       <div class="collapse navbar-collapse" id="navbarToggle">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="portfolio/">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="about/">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="blog/">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact/">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://brad.si/efert/portfolio/">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://brad.si/efert/about/">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://brad.si/efert/blog/">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://brad.si/efert/contact/">Contact</a></li>
         </ul>
       </div>
     </div>

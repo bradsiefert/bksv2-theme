@@ -8,7 +8,7 @@
       <h1>Design Portfolio</h1>
       <p>Some of my design and front-end work that I'm proud to show off.</p>
       <div class="row no-gutters mb-32">
-    		<?php $wp_query->query('posts_per_page=12&cat=3&order=DESC'.'&paged='.$paged); while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+    		<?php $wp_query->query('posts_per_page=15&cat=3&order=DESC'.'&paged='.$paged); while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
           <div class="col-sm-4">
             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('large', array('class' => 'img-fluid')); ?></a>
           </div>

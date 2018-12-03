@@ -10,7 +10,7 @@ Template Post Type: post, portfolio
       <div class="col-lg-12 portfolio-post">
         <div class="breadcrumb">
           <div class="breadcrumb-item"><a href="/">Home</a></div>
-          <div class="breadcrumb-item"><a href="portfolio/">Portfolio</a></div>
+          <div class="breadcrumb-item"><a href="https://www.brad.si/efert/portfolio/">Portfolio</a></div>
           <div class="breadcrumb-item"><?php the_title(); ?></div>
         </div>
         <article>

@@ -7,12 +7,12 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mt-96 mb-160">
-        <div class="display-1">
+        <h1 class="display-1">
           Hi, I'm Brad, I’m a UX/UI <span class="landing-badge">designer <div class="badge badge-primary">My Day Job
           </div></span> and semi-pro <span class="landing-badge">photographer <div class="badge badge-success">
             My Passion</div></span> based in Chicago, IL.
-        </div>
-        <a href="portfolio/" class="btn btn-outline btn-primary btn-lg mb-16">Design Work</a>
+        </h1>
+        <a href="https://www.brad.si/efert/portfolio/" class="btn btn-outline btn-primary btn-lg mb-16">Design Work</a>
         <a target="_blank" href="https://bradleysiefert.com" class="btn btn-outline btn-success btn-lg mb-16">
           Photo Work
         </a>
@@ -20,71 +20,6 @@
     </div>
   </div>
 </div>
-
-<script language="javascript">
-  function ebstart() {
-    // Enter the month, day, and year below you want to use as
-    // the starting point for the date calculation
-    var amonth = 10
-    var aday = 17
-    var ayear = 2013
-
-    var x = new Date()
-    var dyear
-    var dmonth
-    var dday
-    var tyear = x.getFullYear()
-    var tmonth = x.getMonth()+1
-    var tday = x.getDate()
-    var y=1
-    var mm=1
-    var d=1
-    var a2=0
-    var a1=0
-    var f=28
-
-    if ((tyear/4)-parseInt(tyear/4)==0) {
-      f=29
-    }
-
-    m = new Array(31, f, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
-
-    dyear = tyear-(ayear)
-
-    dmonth = tmonth-amonth
-    if (dmonth<0) {
-      dmonth = dmonth+12
-      dyear--
-    }
-
-    dday = tday-aday
-    if (dday<0) {
-      var ma = amonth+tmonth
-      if (ma>12) {ma = ma-12}
-      if (ma=0) {ma = ma+12}
-      dday = dday+m[ma]
-      dmonth--
-    }
-
-    if (dyear==0) {y=0}
-    if (dmonth==0) {mm=0}
-    if (dday==0) {d=0}
-    if ((y==1) && (mm==1)) {a1=1}
-    if ((y==1) && (d==1)) {a1=1}
-    if ((mm==1) && (d==1)) {a2=1}
-    if (y==1){
-    document.write(+dyear+" years") }
-      if ((a1==1) && (a2==0)) {document.write(" and ")}
-      if ((a1==1) && (a2==1)) {document.write(", ")}
-      if (mm==1){
-      document.write(dmonth+" months")
-    }
-    if (a2==1) {document.write(", and ")}
-    if (d==1){
-      document.write(+dday+" days")
-    }
-  }
-</script>
 
 <div class="resume-earlybird">
   <div class="container">
@@ -94,7 +29,7 @@
           <img class="mb-32" src="<?= get_theme_file_uri("images/logo-earlybird.svg") ?>" alt="Logo for Earlybird Software">
         </a>
         <div class="display-2 mb-32">
-          For the past <script type="text/javascript">ebstart()</script> I’ve been the Product Designer at Earlybird.
+          For the past <span id="dateDisplay"></span> I’ve been the Product Designer at Earlybird.
         </div>
         <div class="display-3 mb-32">
           We develop elegant custom data solutions for companies to help them make sense of their data. I’ve been able
@@ -121,5 +56,17 @@
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  (function () {
+    var start_date = new Date(2013, 9, 17), // JS month is 0-11
+    date_difference = (new Date()) - start_date,
+    total_days = Math.floor(date_difference / (1000 * 60 * 60 * 24)),
+    years = Math.floor(total_days / 365),
+    days = total_days % 365;
+
+    document.getElementById('dateDisplay').innerHTML = years + ' years and ' + days + ' day' + (days == 1 ? '' : 's');
+  })();
+</script>
 
 <?php get_footer(); ?>
