@@ -18,7 +18,7 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" type="text/css" href="<?= get_theme_file_uri("css/app.css") ?>" />
 
-  <title>Brad Siefert | Product Designer</title>
+  <title>Brad Siefert | Product Designer | <?php the_title(); ?></title>
   <meta name="keywords" content="Brad Siefert, Nicole Siefert, product designer, photographer, graphic designer, Earlybird, Dose, Spartz, Hitch & Sparrow" />
   <meta name="description" content="Personal design portfolio and blog of product designer, Brad Siefert.">
 

@@ -6,6 +6,9 @@
       <div class="col-lg-12">
       <?php get_template_part( 'partials/breadcrumbs'); ?>
 
+      <div class="float-right">
+        <small><strong><a href="https://www.brad.si/efert/category/blog/feed/">RSS Feed</a></strong></small>
+      </div>
       <h1><?php the_title(); ?></h1>
       <p>A blog about design, photography, productivity, and the things that frustrate me.</p>
 

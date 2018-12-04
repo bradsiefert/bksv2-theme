@@ -140,6 +140,10 @@ a:active {
   .portfolio-post img {
     border: none !important;
   }
+
+  blockquote {
+    background-color: #181818;
+  }
 }
 
 /* ---------- Navbar --------- */
@@ -373,6 +377,16 @@ blockquote {
 
 .btn-highlight {
   color: $gray-900;
+}
+
+.btn-secondary {
+  color: $gray-800;
+  background-color: $gray-200;
+  border-color: $gray-200;
+}
+
+.btn-link {
+  color: $link-color;
 }
 
 /* ---------- Breadcrumbs --------- */
