@@ -1,7 +1,8 @@
 /* ---------- Bradstrap v4 Global Updates --------- */
 // 8pt Grid System
 $grid-gutter-width:     32px !default;
-$container-max-widths:  (sm: 544px, md: 736px, lg: 960px, xl: 1168px) !default;
+$container-max-widths:  (sm: 480px, md: 736px, lg: 992px, xl: 1200px) !default;
+$grid-breakpoints:      (xs: 0, sm: 512px, md: 768px, lg: 1024px, xl: 1200px ) !default;
 
 // 8pt Spacers Extended
 $spacer: 1rem !default;
@@ -16,8 +17,8 @@ $spacers: map-merge((
 
 // Updating Base Colors (I don't believe in false greys.)
 $white:    #fff !default;
-$gray-100: #f8f8f8 !default; $gray-200: #eeeeee !default; $gray-300: #dddddd !default;
-$gray-400: #cccccc !default; $gray-500: #555555 !default; $gray-600: #666666 !default;
+$gray-100: #fafafa !default; $gray-200: #eeeeee !default; $gray-300: #dddddd !default;
+$gray-400: #cccccc !default; $gray-500: #777777 !default; $gray-600: #555555 !default;
 $gray-700: #555555 !default; $gray-800: #333333 !default; $gray-900: #121212 !default;
 $black:    #000 !default;
 
