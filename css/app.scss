@@ -109,6 +109,8 @@ a:active {
   }
 }
 
+/* ---------- Dark Mode --------- */
+
 @media (prefers-color-scheme: dark) {
   body {
     color: $white;
@@ -143,7 +145,7 @@ a:active {
   }
 
   blockquote {
-    background-color: #181818;
+    background-color: $gray-800 !important;
   }
 }
 
@@ -316,7 +318,7 @@ small, .small {
 
 blockquote {
   margin: 1rem 0 1.5rem;
-  background-color: #fafafa;
+  background-color: $gray-100;
   padding: 1.25rem 1rem .5rem;
   font-style: italic;
 }
@@ -331,6 +333,13 @@ blockquote {
     font-weight: 500;
     font-size: .875rem;
   }
+}
+
+pre {
+  font-size: 72%;
+  color: $primary;
+  background-color: $gray-100;
+  padding: 1rem;
 }
 
 /* ---------- Buttons --------- */
@@ -596,7 +605,7 @@ blockquote {
 
 .portfolio-post img {
   margin-bottom: 1rem;
-  border: 1px solid #fafafa;
+  border: 1px solid $gray-100;
 }
 
 /* ---------- Contact Page --------- */
