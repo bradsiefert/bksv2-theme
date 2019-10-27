@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65876215-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-65876215-1');
+  </script>
+
   <meta charset="utf-8">
   <meta name="google-site-verification" content="D5nyy82jtOYwwTmQIwBq4Z5U1TcxXiopB4BGquzH3SM" />
   <meta name="msvalidate.01" content="301B6894F0D9F2A0DE43AF26D134D704" />
@@ -17,23 +27,29 @@
   <meta name="msapplication-config" content="<?= get_theme_file_uri("images/browserconfig.xml") ?>">
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" type="text/css" href="<?= get_theme_file_uri("css/app.css") ?>" />
-
-  <title>Brad Siefert | Product Designer | <?php the_title(); ?></title>
-  <meta name="keywords" content="Brad Siefert, Nicole Siefert, product designer, photographer, graphic designer, Earlybird, Dose, Spartz, Hitch & Sparrow" />
-  <meta name="description" content="Personal design portfolio and blog of product designer, Brad Siefert.">
+  <title>
+    <?php if(is_front_page() || is_home()){
+        echo get_bloginfo('name');
+    } else{
+        echo wp_title('');
+    }?>
+  </title>
+  <meta name="keywords" content="Brad Siefert, Bradley Siefert, Nicole Siefert, Product Designer, UI designer, UX designer, UI/UX 
+  Designer, photographer, graphic designer, Earlybird, Dose, Spartz, Hitch & Sparrow" />
+  <meta name="description" content="Personal design portfolio and blog of UI/UX Designer, Brad Siefert.">
 
   <!-- Twitter Card data -->
   <meta name="twitter:card"    content="summary">
   <meta name="twitter:site"    content="@bksiefert">
-  <meta name="twitter:title"   content="Brad Siefert / Product Designer">
+  <meta name="twitter:title"   content="Brad Siefert / UI/UX Designer">
   <meta name="twitter:creator" content="@bksiefert">
   <meta name="twitter:image"   content="https://www.brad.si/efert/wp-content/themes/bksv2-theme/images/sharing-tile.jpg">
 
   <!-- Facebook Share data -->
-  <meta property="og:url" content="https://www.brad.si/efert" />
+  <!-- <meta property="og:url" content="https://www.brad.si/efert" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Brad Siefert / Product Designer" />
   <meta property="fb:app_id" content="563001627481127"/>
   <meta property="og:description" content="Personal design portfolio and blog of product designer, Brad Siefert." />
-  <meta property="og:image" content="https://www.brad.si/efert/wp-content/themes/bksv2-theme/images/sharing-tile.jpg" />
+  <meta property="og:image" content="https://www.brad.si/efert/wp-content/themes/bksv2-theme/images/sharing-tile.jpg" /> -->
 </head>
