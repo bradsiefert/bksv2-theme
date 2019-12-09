@@ -14,20 +14,20 @@
       </div>
       <div class="offset-lg-1 col-lg mb-16">
         <h5>Social Media</h5>
-        <ul class="list-inline">
+        <ul class="list-inline footer-social-icons">
           <li class="list-inline-item">
             <a target="_blank" href="https://dribbble.com/bradsiefert">
               <img src="<?= get_theme_file_uri("images/icon-dribbble.svg") ?>" alt="Icon for Dribbble">
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/bradsiefert/">
-              <img src="<?= get_theme_file_uri("images/icon-instagram.svg") ?>" alt="Icon for Instagram">
+            <a target="_blank" href="https://www.linkedin.com/in/bradsiefert/">
+              <img src="<?= get_theme_file_uri("images/icon-linkedin.svg") ?>" alt="Icon for LinkedIn">
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.linkedin.com/in/bradsiefert/">
-              <img src="<?= get_theme_file_uri("images/icon-linkedin.svg") ?>" alt="Icon for LinkedIn">
+            <a target="_blank" href="https://www.instagram.com/bradsiefert/">
+              <img src="<?= get_theme_file_uri("images/icon-instagram.svg") ?>" alt="Icon for Instagram">
             </a>
           </li>
           <li class="list-inline-item">
@@ -37,13 +37,18 @@
           </li>
           <li class="list-inline-item">
             <a target="_blank" href="https://www.facebook.com/bradleyksiefert">
-              <img src="<?= get_theme_file_uri("images/icon-facebook.svg") ?>" alt="Icon for facebook">
+              <img src="<?= get_theme_file_uri("images/icon-facebook.svg") ?>" alt="Icon for Facebook">
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/bradleyksiefert">
+              <img src="<?= get_theme_file_uri("images/icon-letterboxd.svg") ?>" alt="Icon for Letterboxd">
             </a>
           </li>
         </ul>
       </div>
       <div class="col-lg text-right-then-left">
-        <h5>CREDITS</h5>
+        <h5>Credits</h5>
         <p>
           Props to <a href="http://fkorf.com">Fkorf</a> & <a href="http://kro.ski">Kroski</a> <br>
           Powered by <a href="https://wordpress.com">Wordpress</a> and
