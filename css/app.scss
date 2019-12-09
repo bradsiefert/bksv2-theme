@@ -458,26 +458,25 @@ pre {
   right: 8px;
 }
 
-@media (max-width: 768px) {
-  .landing-badge {
-    display: block;
-    padding-right: 0;
-  }
-
-  .landing-badge > .badge {
-    position: relative;
-    top: -5px;
-    right: 0;
-  }
-}
-
 .landing-hero .btn {
-  min-width: 12rem;
+  min-width: 192px;
 }
 
 .landing-hero .display-1 {
   font-size: 3.5rem;
   line-height: 1.33;
+}
+
+.resume-earlybird {
+  background: #0775ED;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+}
+
+.resume-spartz {
+  background-image: radial-gradient(circle at top center, #444 0%, #121212 100%);
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 }
 
 @media (min-width: 1200px) {
@@ -486,9 +485,15 @@ pre {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 512px) {
+  .landing-badge > .badge {
+    position: absolute;
+    top: 12px;
+    right: 0;
+  }
+
   .landing-hero .display-1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .landing-hero .btn {
@@ -497,33 +502,20 @@ pre {
 
   .resume-spartz .display-2,
   .resume-earlybird .display-2 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 
   .resume-spartz .display-3,
   .resume-earlybird .display-3 {
-    font-size: 1.75rem;
+    font-size: 1.4rem;
+    line-height: 1.25;
   }
-}
-
-@media (min-width: 768px) {
-  .landing-hero .btn:first-of-type {
-    margin-right: .5rem;
+  
+  .resume-earlybird, 
+  .resume-spartz {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
-}
-
-.resume-earlybird {
-  // min-height: 40rem;
-  background: #0775ED;
-  padding-top: 6rem;
-  padding-bottom: 8rem;
-}
-
-.resume-spartz {
-  // min-height: 20rem;
-  background-image: radial-gradient(circle at top center, #444 0%, #121212 100%);
-  padding-top: 4rem;
-  padding-bottom: 6rem;
 }
 
 /* ---------- Company Page --------- */
