@@ -17,11 +17,11 @@
 
       <div class="collapse navbar-collapse" id="navbarToggle">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="/portfolio/">Design Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="/siri-shortcuts/">Siri Shortcuts</a></li>
-          <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?= get_site_url() ?>/portfolio/">Design Portfolio</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="<?= get_site_url() ?>/siri-shortcuts/">Siri Shortcuts</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="<?= get_site_url() ?>/about/">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?= get_site_url() ?>/blog/">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?= get_site_url() ?>/contact/">Contact</a></li>
         </ul>
       </div>
     </div>
