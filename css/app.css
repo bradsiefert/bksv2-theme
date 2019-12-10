@@ -109,12 +109,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #2AC9FF;
+  color: #00a1d7;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #00a5dd;
+    color: #00688b;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -2022,10 +2022,10 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #2AC9FF;
+  color: #00a1d7;
   background-color: transparent; }
   .btn-link:hover {
-    color: #00a5dd;
+    color: #00688b;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent; }
@@ -3308,12 +3308,12 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #2AC9FF;
+  color: #00a1d7;
   background-color: #fff;
   border: 1px solid #dddddd; }
   .page-link:hover {
     z-index: 2;
-    color: #00a5dd;
+    color: #00688b;
     text-decoration: none;
     background-color: #eeeeee;
     border-color: #dddddd; }
@@ -8760,29 +8760,6 @@ html {
   html {
     font-size: 1rem; } }
 
-/* ---------- Dark Mode --------- */
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #fff;
-    background-color: #121212; }
-  .breadcrumb {
-    border-top: 1px solid #333333 !important;
-    border-bottom: 1px solid #333333 !important; }
-  .box a {
-    color: #fff !important; }
-  .box {
-    border: 1px solid #333333 !important; }
-  .form-control,
-  .form-control:focus,
-  .form-control::placeholder {
-    color: #fff; }
-  .divider {
-    border-bottom: 1px solid #333333 !important; }
-  .portfolio-post img {
-    border: none !important; }
-  blockquote, pre {
-    background-color: #333333 !important; } }
-
 /* ---------- Navbar --------- */
 .navbar {
   min-height: 64px;
@@ -8847,6 +8824,9 @@ footer .list-inline-item:not(:last-child) {
 .about p {
   font-size: 1.25rem;
   margin-bottom: 1.5rem; }
+
+.lead {
+  font-weight: 400; }
 
 .display-1 {
   font-family: "C";
@@ -9003,7 +8983,7 @@ pre {
   border-color: #eeeeee; }
 
 .btn-link {
-  color: #2AC9FF; }
+  color: #00a1d7; }
 
 /* ---------- Breadcrumbs --------- */
 .breadcrumb {
@@ -9128,7 +9108,7 @@ pre {
   color: #121212; }
 
 .box h3 a:hover {
-  color: #2AC9FF; }
+  color: #00a1d7; }
 
 .btn-box {
   position: absolute;
@@ -9193,3 +9173,48 @@ textarea.form-control {
   font-weight: 600;
   background-color: #2AC9FF;
   margin-bottom: 1rem; }
+
+/* ---------- Siri Shortcuts Page --------- */
+.box.shortcuts {
+  background-color: #fcfcfc;
+  border: 1px solid #cccccc;
+  border-radius: 0.5rem;
+  min-height: 256px;
+  padding: 1.5rem;
+  color: #000; }
+
+.box.shortcuts:hover {
+  border: 1px solid #2AC9FF;
+  color: #2AC9FF;
+  text-decoration: underline;
+  text-decoration-color: #2AC9FF; }
+
+/* ---------- Dark Mode Styles --------- */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background-color: #121212; }
+  .breadcrumb {
+    border-top: 1px solid #333333 !important;
+    border-bottom: 1px solid #333333 !important; }
+  .box a {
+    color: #fff !important; }
+  .box {
+    border: 1px solid #333333; }
+  .form-control,
+  .form-control:focus,
+  .form-control::placeholder {
+    color: #fff; }
+  .divider {
+    border-bottom: 1px solid #333333 !important; }
+  .portfolio-post img {
+    border: none !important; }
+  blockquote, pre {
+    background-color: #333333 !important; }
+  .box.shortcuts {
+    background-color: #161616;
+    border: 1px solid #333333;
+    color: #fff; }
+  .box.shortcuts:hover {
+    border: 1px solid #2AC9FF;
+    color: #2AC9FF; } }

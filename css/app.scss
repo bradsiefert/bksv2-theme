@@ -43,6 +43,8 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
+$link-color: darken($blue, 16%) !default;
+
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
@@ -108,46 +110,6 @@ a:active {
   }
 }
 
-/* ---------- Dark Mode --------- */
-
-@media (prefers-color-scheme: dark) {
-  body {
-    color: $white;
-    background-color: $gray-900;
-  }
-
-  .breadcrumb {
-    border-top: 1px solid $gray-800 !important;
-    border-bottom: 1px solid $gray-800 !important;
-  }
-
-  .box a {
-    color: $white !important;
-  }
-
-  .box {
-    border: 1px solid $gray-800 !important;
-  }
-
-  .form-control,
-  .form-control:focus,
-  .form-control::placeholder {
-    color: $white;
-  }
-
-  .divider {
-    border-bottom: 1px solid $gray-800 !important;
-  }
-
-  .portfolio-post img {
-    border: none !important;
-  }
-
-  blockquote, pre {
-    background-color: $gray-800 !important;
-  }
-}
-
 /* ---------- Navbar --------- */
 .navbar {
   min-height: 64px;
@@ -210,6 +172,10 @@ footer .list-inline-item:not(:last-child) {
 .about p {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
+}
+
+.lead {
+  font-weight: 400;
 }
 
 .display-1 {
@@ -633,4 +599,72 @@ textarea.form-control {
   font-weight: 600;
   background-color: $primary;
   margin-bottom: 1rem;
+}
+
+/* ---------- Siri Shortcuts Page --------- */
+.box.shortcuts {
+  background-color: #fcfcfc;
+  border: 1px solid $gray-400;
+  border-radius: 0.5rem;
+  min-height: 256px;
+  padding: 1.5rem;
+  color: $black;
+}
+
+.box.shortcuts:hover {
+  border: 1px solid #2AC9FF;
+  color: #2AC9FF;
+  text-decoration: underline;
+  text-decoration-color: #2AC9FF;
+}
+
+/* ---------- Dark Mode Styles --------- */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: $white;
+    background-color: $gray-900;
+  }
+
+  .breadcrumb {
+    border-top: 1px solid $gray-800 !important;
+    border-bottom: 1px solid $gray-800 !important;
+  }
+
+  .box a {
+    color: $white !important;
+  }
+
+  .box {
+    border: 1px solid $gray-800;
+  }
+
+  .form-control,
+  .form-control:focus,
+  .form-control::placeholder {
+    color: $white;
+  }
+
+  .divider {
+    border-bottom: 1px solid $gray-800 !important;
+  }
+
+  .portfolio-post img {
+    border: none !important;
+  }
+
+  blockquote, pre {
+    background-color: $gray-800 !important;
+  }
+  
+  .box.shortcuts {
+    background-color: #161616;
+    border: 1px solid $gray-800;
+    color: $white;
+  }
+
+  .box.shortcuts:hover {
+    border: 1px solid #2AC9FF;
+    color: #2AC9FF;
+  }
 }
