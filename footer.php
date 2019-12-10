@@ -41,7 +41,7 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/bradleyksiefert">
+            <a target="_blank" href="https://letterboxd.com/bradsiefert/">
               <img src="<?= get_theme_file_uri("images/icon-letterboxd.svg") ?>" alt="Icon for Letterboxd">
             </a>
           </li>

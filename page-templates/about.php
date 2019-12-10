@@ -2,10 +2,14 @@
 
 <main>
   <div class="container">
+    <div class="row">
+      <div class="col">
+        <?php get_template_part( 'partials/breadcrumbs'); ?>
+      </div>
+    </div>
+
     <div class="row about">
       <div class="col-md-7 col-lg-8">
-        <?php get_template_part( 'partials/breadcrumbs'); ?>
-
         <article>
           <h2 class="h1">I promise this won’t be in the third person.</h2>
           <p>
@@ -26,11 +30,9 @@
           </p>
 
           <p>
-            My favorite places in the world are
-            <a target="_new" href="https://www.flickr.com/photos/dim7chord/albums/72157690018094916">Grand Teton National
-            Park</a> and <a target="_new" href="https://www.flickr.com/photos/dim7chord/sets/72157690018094916">Rabbit
-            Island</a>, there are dozens of documentaries in my Netflix queue, and I’ve taken around 500K photos in the
-            past 11 years.
+            My favorite places in the world are Grand Teton National
+            Park</a> and <a target="_new" href="https://rabbitisland.org">Rabbit Island</a>, there are dozens of 
+            documentaries in my Netflix queue, and I’ve taken around 500K photos in the past 11 years.
           </p>
 
           <p>
@@ -45,6 +47,7 @@
       <div class="col-md-5 col-lg-4">
         <img class="img-fluid" src="<?= get_theme_file_uri("images/photo-bradsiefert.jpg") ?>" alt="Photo of Brad Siefert">
       </div>
+
     </div>
   </div>
 </main>
