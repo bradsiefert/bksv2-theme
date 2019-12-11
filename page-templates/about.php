@@ -32,7 +32,7 @@
           <p>
             My favorite places in the world are Grand Teton National
             Park</a> and <a target="_new" href="https://rabbitisland.org">Rabbit Island</a>, there are dozens of 
-            documentaries in my Netflix queue, and I’ve taken around 500K photos in the past 11 years.
+            documentaries in my Netflix queue, and I’ve taken around 600K photos in the past 11 years.
           </p>
 
           <p>
