@@ -8,15 +8,24 @@
 
         <h1>Siri Shortcuts</h1>
         <p class="lead">
-          Shortcuts have become my favorite way to develop. They’re small programs that you can run on your iOS devices 
-          to accomplish a variety of tasks. I’m especially proud of making these and I hope you find them useful.
+          Shortcuts have become my favorite development platform. Shortcuts are small programs that you can run on your 
+          iOS devices to accomplish a variety of tasks. I’m especially proud of making these and I hope you find 
+          them useful. For a full list of all of my public shortcuts, the button below links to a database with links 
+          to all of them.
         </p>
 
         <p class="lead">
-          For more information about getting started with Shortcuts, this is
-          <a target="_new" href="https://www.imore.com/getting-started-shortcuts">a great guide,</a> and this is also
-          <a target="_new" href="https://thesweetsetup.com/ios-shortcuts-guide/">a great guide.</a>
+          For more information about getting started with Shortcuts, here's a
+          <a target="_new" href="https://www.imore.com/getting-started-shortcuts">great guide,</a> here's a
+          <a target="_new" href="https://thesweetsetup.com/ios-shortcuts-guide/">great guide,</a> and one more
+          <a target="_new" href="https://www.matthewcassinelli.com/siri-shortcuts/">great guide.</a>
         </p>
+
+        <div class="row">
+          <div class="col-lg-4 col-xl-3">
+            <a class="btn btn-primary btn-block mb-32" href="<?= get_site_url() ?>/siri-shortcuts/public-list/">All Public Shortcuts List</a>
+          </div>
+        </div>
       </div>
     </div>
     
@@ -41,16 +50,16 @@
     <?php if ($paged > 1) { ?>
       <div class="row">
         <div class="col-6">
-          <strong><?php next_posts_link('Previous Posts'); ?></strong>
+          <strong><?php next_posts_link('More Shortcuts'); ?></strong>
         </div>
         <div class="col-6 text-right">
-          <strong><?php previous_posts_link('Newer Posts'); ?></strong>
+          <strong><?php previous_posts_link('Newer Shortcuts'); ?></strong>
         </div>
       </div>
 		<?php } else { ?>
       <div class="row">
         <div class="col-6">
-          <strong><?php next_posts_link('Previous Posts'); ?></strong>
+          <strong><?php next_posts_link('More Shortcuts'); ?></strong>
         </div>
       </div>
 		<?php } ?>
