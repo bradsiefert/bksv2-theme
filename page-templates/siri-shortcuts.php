@@ -23,7 +23,9 @@
 
         <div class="row">
           <div class="col-lg-4 col-xl-3">
-            <a class="btn btn-primary btn-block mb-32" href="<?= get_site_url() ?>/siri-shortcuts/public-list/">All Public Shortcuts List</a>
+            <a class="btn btn-primary btn-block mb-32" href="<?= get_site_url() ?>/siri-shortcuts/public-list/">
+              View Public Shortcuts List
+            </a>
           </div>
         </div>
       </div>
