@@ -14,7 +14,7 @@
       </div>
       <div class="offset-lg-1 col-lg mb-16">
         <h5>Social Media</h5>
-        <ul class="list-inline footer-social-icons">
+        <ul class="list-inline">
           <li class="list-inline-item">
             <a target="_blank" href="https://dribbble.com/bradsiefert">
               <img src="<?= get_theme_file_uri("images/icon-dribbble.svg") ?>" alt="Icon for Dribbble">
