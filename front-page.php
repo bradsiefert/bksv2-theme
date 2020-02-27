@@ -10,9 +10,11 @@
         <h1 class="display-1">
           Hi, I'm Brad, I’m a UX/UI <span class="landing-badge">designer <div class="badge badge-primary">My Day Job
           </div></span> and <span class="landing-badge">photographer <div class="badge badge-success">
-            My Passion</div></span> based in Chicago, IL.
+            My Passion</div></span> based in Chicago, IL
         </h1>
-        <a href="https://www.brad.si/efert/portfolio/" class="btn btn-outline btn-primary btn-lg mb-16">Design Work</a>
+        <a href="https://www.brad.si/efert/portfolio/" class="btn btn-outline btn-primary btn-lg mb-16 mr-lg-2">
+          Design Work
+        </a>
         <a target="_blank" href="https://bradleysiefert.com" class="btn btn-outline btn-success btn-lg mb-16">
           Photo Work
         </a>
@@ -29,7 +31,7 @@
           <img class="mb-32" src="<?= get_theme_file_uri("images/logo-earlybird.svg") ?>" alt="Logo for Earlybird Software">
         </a>
         <div class="display-2 mb-32">
-          For the past <span id="dateDisplay"></span> I’ve been the Product Designer at Earlybird.
+          For the past <span id="dateDisplay"></span> I’ve been the Product Designer at Earlybird
         </div>
         <div class="display-3 mb-32">
           We develop elegant custom data solutions for companies to help them make sense of their data. I’ve been able

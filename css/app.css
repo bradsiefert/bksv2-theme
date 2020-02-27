@@ -9050,6 +9050,11 @@ pre {
   padding-top: 6rem;
   padding-bottom: 8rem; }
 
+.resume-earlybird .display-3 {
+  font-family: 'SFM';
+  font-size: 1.5rem;
+  line-height: 1.4; }
+
 .resume-spartz {
   background-image: radial-gradient(circle at top center, #444 0%, #121212 100%);
   padding-top: 4rem;
@@ -9135,14 +9140,12 @@ pre {
 
 .blog-post p {
   margin-bottom: 1.5rem; }
-  
+
 .blog-post h2 {
-  margin-top: 3rem;
-}
+  margin-top: 3rem; }
 
 .blog-post h3 {
-  margin-top: 2rem;
-}
+  margin-top: 2rem; }
 
 .blog-post img {
   margin-top: 1rem;
@@ -9155,8 +9158,7 @@ pre {
 figcaption {
   font-size: .9125rem;
   color: #777;
-  text-align: center;
-}
+  text-align: center; }
 
 /* ---------- Contact Page --------- */
 .form-control,

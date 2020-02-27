@@ -31,7 +31,7 @@
     <?php if(is_front_page() || is_home()){
         echo get_bloginfo('name');
     } else{
-        echo wp_title('');
+        echo wp_title('Brad Siefert / ');
     }?>
   </title>
   <meta name="keywords" content="Brad Siefert, Bradley Siefert, Nicole Siefert, Product Designer, UI designer, UX designer, UI/UX 
