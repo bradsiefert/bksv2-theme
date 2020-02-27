@@ -555,6 +555,14 @@ pre {
   margin-bottom: 1.5rem;
 }
 
+.blog-post h2 {
+  margin-top: 2rem;
+}
+
+.blog-post h3 {
+  margin-top: 1.5rem;
+}
+
 .blog-post img {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -563,6 +571,12 @@ pre {
 .portfolio-post img {
   margin-bottom: 1rem;
   border: 1px solid $gray-100;
+}
+
+figcaption {
+  font-size: .9125rem;
+  color: #777;
+  text-align: center;
 }
 
 /* ---------- Contact Page --------- */
