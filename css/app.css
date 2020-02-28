@@ -8921,7 +8921,7 @@ small,
 blockquote {
   margin: 1rem 0 1.5rem;
   background-color: #fafafa;
-  padding: 1.25rem 1rem .5rem;
+  padding: 1.25rem 2rem .5rem;
   font-style: italic; }
 
 blockquote p {
@@ -8934,7 +8934,7 @@ blockquote p:last-of-type {
 
 pre {
   font-size: 72%;
-  color: #2AC9FF;
+  color: #00a1d7;
   background-color: #fafafa;
   padding: 1rem; }
 
@@ -9101,7 +9101,7 @@ pre {
 
 .box {
   border: 1px solid #eeeeee;
-  padding: 1.5rem 2.5rem 2rem;
+  padding: 2rem;
   font-family: "SFM";
   font-size: .875rem;
   letter-spacing: 0;
@@ -9115,20 +9115,9 @@ pre {
 .box h3 a:hover {
   color: #00a1d7; }
 
-.btn-box {
-  position: absolute;
-  bottom: 16px;
-  right: 24px; }
-
 @media (max-width: 767px) {
   .box {
-    padding: 1rem 2rem 1.5rem; }
-  .btn-box {
-    position: static;
-    bottom: 0;
-    right: 0; }
-  .btn-box a {
-    width: 100%; } }
+    padding: 2rem; } }
 
 .blog-time {
   font-size: .75rem;
@@ -9141,6 +9130,10 @@ pre {
 .blog-post p {
   margin-bottom: 1.5rem; }
 
+.blog-post h1 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem; }
+
 .blog-post h2 {
   margin-top: 3rem; }
 
@@ -9151,14 +9144,17 @@ pre {
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
-.portfolio-post img {
-  margin-bottom: 1rem;
-  border: 1px solid #fafafa; }
+.blog-post figure {
+  margin-bottom: 2rem; }
 
 figcaption {
   font-size: .9125rem;
   color: #777;
   text-align: center; }
+
+.portfolio-post img {
+  margin-bottom: 1rem;
+  border: 1px solid #fafafa; }
 
 /* ---------- Contact Page --------- */
 .form-control,
@@ -9226,7 +9222,7 @@ textarea.form-control {
   .portfolio-post img {
     border: none !important; }
   blockquote, pre {
-    background-color: #333333 !important; }
+    background-color: #000 !important; }
   .box.shortcuts {
     background-color: #161616;
     border: 1px solid #333333;

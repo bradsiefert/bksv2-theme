@@ -13,11 +13,16 @@
         </p>
       </div>
       <div class="offset-lg-1 col-lg mb-16">
-        <h5>Social Media</h5>
+        <h5>Social</h5>
         <ul class="list-inline">
           <li class="list-inline-item">
-            <a target="_blank" href="https://dribbble.com/bradsiefert">
+            <a target="_blank" href="https://dribbble.com/bksiefert">
               <img src="<?= get_theme_file_uri("images/icon-dribbble.svg") ?>" alt="Icon for Dribbble">
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://github.com/bradsiefert">
+              <img src="<?= get_theme_file_uri("images/icon-github.svg") ?>" alt="Icon for Github">
             </a>
           </li>
           <li class="list-inline-item">
@@ -26,18 +31,13 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/bradsiefert/">
-              <img src="<?= get_theme_file_uri("images/icon-instagram.svg") ?>" alt="Icon for Instagram">
-            </a>
-          </li>
-          <li class="list-inline-item">
             <a target="_blank" href="https://twitter.com/bksiefert">
               <img src="<?= get_theme_file_uri("images/icon-twitter.svg") ?>" alt="Icon for Twitter">
             </a>
           </li>
           <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/bradleyksiefert">
-              <img src="<?= get_theme_file_uri("images/icon-facebook.svg") ?>" alt="Icon for Facebook">
+            <a target="_blank" href="https://www.instagram.com/bradsiefert/">
+              <img src="<?= get_theme_file_uri("images/icon-instagram.svg") ?>" alt="Icon for Instagram">
             </a>
           </li>
           <li class="list-inline-item">

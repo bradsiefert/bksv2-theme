@@ -15,11 +15,11 @@
           iOS 13.
         </p>
         
-        <p class="lead">
+        <!-- <p class="lead">
           If you've never ran a shortcut before please 
           <a href="https://support.apple.com/guide/shortcuts/enable-shared-shortcuts-apdfeb05586f/ios"> read this guide 
           first</a> on how to run an "Untrusted Shortcut".
-        </p>
+        </p> -->
         
         <iframe 
           class="airtable-embed" 

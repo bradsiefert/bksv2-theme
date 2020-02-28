@@ -284,7 +284,7 @@ small, .small {
 blockquote {
   margin: 1rem 0 1.5rem;
   background-color: $gray-100;
-  padding: 1.25rem 1rem .5rem;
+  padding: 1.25rem 2rem .5rem;
   font-style: italic;
 }
 
@@ -302,7 +302,7 @@ blockquote {
 
 pre {
   font-size: 72%;
-  color: $primary;
+  color: $link-color;
   background-color: $gray-100;
   padding: 1rem;
 }
@@ -508,7 +508,7 @@ pre {
 
 .box {
   border: 1px solid $gray-200;
-  padding: 1.5rem 2.5rem 2rem;
+  padding: 2rem;
   font-family: "SFM";
   font-size: .875rem;
   letter-spacing: 0;
@@ -525,25 +525,9 @@ pre {
   color: $link-color;
 }
 
-.btn-box {
-  position: absolute;
-  bottom: 16px;
-  right: 24px;
-}
-
 @media (max-width: 767px) {
   .box {
-    padding: 1rem 2rem 1.5rem;
-  }
-
-  .btn-box {
-    position: static;
-    bottom: 0;
-    right: 0;
-  }
-
-  .btn-box a {
-    width: 100%;
+    padding: 2rem;
   }
 }
 
@@ -561,6 +545,11 @@ pre {
   margin-bottom: 1.5rem;
 }
 
+.blog-post h1 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
 .blog-post h2 {
   margin-top: 3rem;
 }
@@ -574,15 +563,19 @@ pre {
   margin-bottom: 1rem;
 }
 
-.portfolio-post img {
-  margin-bottom: 1rem;
-  border: 1px solid $gray-100;
+.blog-post figure {
+  margin-bottom: 2rem;
 }
 
 figcaption {
   font-size: .9125rem;
   color: #777;
   text-align: center;
+}
+
+.portfolio-post img {
+  margin-bottom: 1rem;
+  border: 1px solid $gray-100;
 }
 
 /* ---------- Contact Page --------- */
@@ -674,7 +667,7 @@ textarea.form-control {
   }
 
   blockquote, pre {
-    background-color: $gray-800 !important;
+    background-color: $black !important;
   }
   
   .box.shortcuts {

@@ -14,19 +14,17 @@
           to all of them.
         </p>
         
-        <p class="lead">
+        <!-- <p class="lead">
           If you've never ran a shortcut before please 
           <a href="https://support.apple.com/guide/shortcuts/enable-shared-shortcuts-apdfeb05586f/ios"> read this guide 
           first</a> on how to run an "Untrusted Shortcut".
-        </p>
+        </p> -->
 
-        <p>
-          <em>
-            For more information about getting started with Shortcuts, here's a
-            <a target="_new" href="https://www.imore.com/getting-started-shortcuts">great guide,</a> here's a
-            <a target="_new" href="https://thesweetsetup.com/ios-shortcuts-guide/">great guide,</a> and one more
-            <a target="_new" href="https://www.matthewcassinelli.com/siri-shortcuts/">great guide.</a>
-          </em>
+        <p class="lead">
+          To learn more about getting started with Shortcuts here's a
+          <a target="_new" href="https://www.imore.com/getting-started-shortcuts">great guide,</a> here's a
+          <a target="_new" href="https://thesweetsetup.com/ios-shortcuts-guide/">great guide,</a> and one more
+          <a target="_new" href="https://www.matthewcassinelli.com/siri-shortcuts/">great guide.</a>
         </p>
         
 

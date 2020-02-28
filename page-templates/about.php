@@ -13,31 +13,46 @@
         <article>
           <h2 class="h1">I promise this won’t be in the third person.</h2>
           <p>
-            Hi, my name is Brad and I’m a product designer specializing in user experience, user interface, and front-end
-            development. I’m originally from the surburbs, but I now make my home in Chicago's
-            <a target="_new "href="https://en.wikipedia.org/wiki/Garfield_Park_(Chicago)">Garfield Park neighborhood</a>
-            with my wife Nicole.
+            Hi, I&#8217;m Brad, and I&#8217;m a UI/UX designer experienced in web and mobile app design and front-end 
+            development. I live in the <a href="https://en.wikipedia.org/wiki/East_Garfield_Park,_Chicago">East 
+            Garfield Park</a> neighborhood of Chicago with my wife Nicole and my daughter Lydia.
           </p>
 
           <p>
-            I love typography, grids, Sketch, Bootstrap,
-            <a target="_new" href="https://www.flickr.com/photos/dim7chord/albums/72157643011912493">instant film</a>,
-            indie software, crossing off tasks from my <a target="_new" href="https://culturedcode.com/">task list</a>,
-            yoga, <a target="_new" href="https://www.patagonia.com/product/mens-nano-air-hoody/84365.html">Patagonia
-            jackets</a>, and most Apple products. I value clarity, elegance, efficiency, and detail orientedness in
-            design. I want to work with people who inspire me to be better each day and who are serious about creating
-            beautiful and meaningful work.
+            I value elegance, clarity, and efficiency in design. I always strive to consider 
+            the user&#8217;s needs and how to best serve them. I love working with people who inspire me to learn and 
+            who are serious about creating beautiful and meaningful work.
           </p>
 
           <p>
-            My favorite places in the world are Grand Teton National
-            Park</a> and <a target="_new" href="https://rabbitisland.org">Rabbit Island</a>, there are dozens of 
-            documentaries in my Netflix queue, and I’ve taken around 600K photos in the past 11 years.
+            Since 2018, I&#8217;ve been on the board of a homelessness non-profit, 
+            <a href="https://openarmsministry.org">Open Arms</a>, focused on improving our internal systems and 
+            IT. It&#8217;s been a great opportunity to learn how to blend code and nocode solutions 
+            to create more effective operations.
           </p>
 
           <p>
-            I’m slightly addicted to Diet Coke—but I’m working on it.
+            Each year I take around 50,000 photos. I want to learn two languages in the next couple of years: Spanish 
+            and JavaScript. I drink <em>way</em> too much Diet Coke—but I’m working on it.
           </p>
+
+          <p>
+            <small>
+              Currently I&#8217;m obsessed with:<br/>
+              <a href="https://designsystemsrepo.com">Design Systems</a>. 
+              <a href="https://apps.apple.com/us/app/shortcuts/id1462947752">Siri Shortcuts</a>. 
+              <a href="https://www.apple.com/ipados/">iPadOS</a>. 
+              <a href="https://airtable.com">AirTable</a>. 
+              <a href="https://www.makerpad.co">Nocode tools</a>. 
+              <a href="https://www.theringer.com">The Ringer</a>. 
+              <a href="https://www.relay.fm">Relay FM</a>. 
+              <a href="http://dobyfriday.com">Do By Friday</a>. 
+              <a href="https://us.polaroidoriginals.com">Instant film</a>. 
+              <a href="https://www.instagram.com/chelseafc/">Chelsea FC</a>. 
+              <a href="https://podcasts.apple.com/us/podcast/the-ringer-nba-show/id1109271715">NBA podcasts</a>.
+            </small>
+          </p>
+
           <a target="_blank" class="btn btn-primary mb-32" href="<?= get_theme_file_uri("Brad-Siefert-Resume.pdf") ?>">
             Download Resume
           </a>

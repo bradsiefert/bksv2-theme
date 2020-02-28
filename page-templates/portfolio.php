@@ -6,9 +6,15 @@
       <div class="col-lg-12">
       <?php get_template_part( 'partials/breadcrumbs'); ?>
       <h1>Design Portfolio</h1>
-      <p class="lead">
+      <p class="lead mb-32">
         Some of my design and front-end work that I'm proud to show off.
       </p>
+
+      <div class="divider mb-16"></div>
+      <h2>Case Studies</h2>
+      <div class="divider mb-16"></div>
+      
+      <h2>User Inferface Work</h2>
       <div class="row no-gutters mb-32">
     		<?php
           $wp_query->query('posts_per_page=15&cat=3&order=DESC'.'&paged='.$paged);

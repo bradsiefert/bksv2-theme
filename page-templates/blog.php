@@ -10,7 +10,7 @@
         <small><strong><a href="https://www.brad.si/efert/category/blog/feed/">RSS Feed</a></strong></small>
       </div>
       <h1><?php the_title(); ?></h1>
-      <p>A blog about design, photography, productivity, and the things that frustrate me.</p>
+      <p>A blog about design, photography, productivity, and other things I can't stop thinking about.</p>
 
   		<?php $wp_query->query('posts_per_page=4&cat=2&order=DESC' . '&paged='.$paged); while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
       <div class="box">
@@ -18,9 +18,7 @@
     		<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
     		<?php the_excerpt(); ?>
 
-        <div class="btn-box">
-          <a class="btn btn-primary btn-xs" href="<?php the_permalink(); ?>">Read More</a>
-        </div>
+        <a class="btn btn-primary btn-sm" href="<?php the_permalink(); ?>">Read More</a>
       </div>
       <?php endwhile; ?>
 
