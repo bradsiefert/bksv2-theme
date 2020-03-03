@@ -14,7 +14,7 @@
 
   		<?php $wp_query->query('posts_per_page=4&cat=2&order=DESC' . '&paged='.$paged); while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
       <div class="box">
-        <p class="blog-time"><?php the_time('Y/m/d g:ia') ?></p>
+        <p class="blog-time"><?php the_time('Y/m/d') ?></p>
     		<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
     		<?php the_excerpt(); ?>
 

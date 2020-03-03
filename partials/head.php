@@ -48,7 +48,7 @@
   <!-- Facebook Share data -->
   <meta property="og:url" content="https://www.brad.si/efert" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Brad Siefert / Product Designer" />
+  <meta property="og:title" content="Brad Siefert / UI/UX designer" />
   <meta property="fb:app_id" content="563001627481127"/>
   <meta property="og:description" content="Personal design portfolio and blog of product designer, Brad Siefert." />
   <meta property="og:image" content="https://www.brad.si/efert/wp-content/themes/bksv2-theme/images/sharing-tile.jpg" />

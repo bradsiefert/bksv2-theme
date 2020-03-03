@@ -4,7 +4,7 @@
       <div class="col-lg">
         <h5>Quick Bio</h5>
         <p>
-          I'm a Chicago based UX/UI designer and photographer experienced in web, mobile & print.
+          I'm a Chicago based UI/UX designer and photographer experienced in web, mobile & print.
         </p>
 
         <p>I'm not currently accepting freelance work, but you can contact the Sales team at
