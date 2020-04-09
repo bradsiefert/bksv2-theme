@@ -26,11 +26,9 @@
           <a target="_new" href="https://thesweetsetup.com/ios-shortcuts-guide/">great guide,</a> and one more
           <a target="_new" href="https://www.matthewcassinelli.com/siri-shortcuts/">great guide.</a>
         </p>
-        
-
 
         <div class="row">
-          <div class="col-lg-4 col-xl-3">
+          <div class="col-lg-6 col-xl-4">
             <a class="btn btn-primary btn-block mb-32" href="<?= get_site_url() ?>/siri-shortcuts/public-list/">
               View Public Shortcuts List
             </a>

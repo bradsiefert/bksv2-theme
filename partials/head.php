@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65876215-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-65876215-1');
-  </script> -->
-
   <meta charset="utf-8">
   <meta name="google-site-verification" content="D5nyy82jtOYwwTmQIwBq4Z5U1TcxXiopB4BGquzH3SM" />
   <meta name="msvalidate.01" content="301B6894F0D9F2A0DE43AF26D134D704" />
@@ -52,4 +42,6 @@
   <meta property="fb:app_id" content="563001627481127"/>
   <meta property="og:description" content="Personal design portfolio and blog of product designer, Brad Siefert." />
   <meta property="og:image" content="https://www.brad.si/efert/wp-content/themes/bksv2-theme/images/sharing-tile.jpg" />
+  
+  <?php wp_head(); ?>
 </head>

@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a href="/" class="navbar-brand">
         <img src="<?= get_theme_file_uri("images/logo.svg") ?>" alt="Logo for Brad Siefert">

@@ -10,11 +10,11 @@
         Some of my design and front-end work that I'm proud to show off.
       </p>
 
-      <div class="divider mb-16"></div>
+      <!-- <div class="divider mb-16"></div>
       <h2>Case Studies</h2>
       <div class="divider mb-16"></div>
-      
-      <h2>User Inferface Work</h2>
+
+      <h2>User Inferface Work</h2> -->
       <div class="row no-gutters mb-32">
     		<?php
           $wp_query->query('posts_per_page=15&cat=3&order=DESC'.'&paged='.$paged);

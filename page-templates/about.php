@@ -39,17 +39,19 @@
           <p>
             <small>
               Currently I&#8217;m obsessed with:<br/>
-              <a href="https://designsystemsrepo.com">Design Systems</a>. 
-              <a href="https://apps.apple.com/us/app/shortcuts/id1462947752">Siri Shortcuts</a>. 
-              <a href="https://www.apple.com/ipados/">iPadOS</a>. 
-              <a href="https://airtable.com">AirTable</a>. 
-              <a href="https://www.makerpad.co">Nocode tools</a>. 
-              <a href="https://www.theringer.com">The Ringer</a>. 
-              <a href="https://www.relay.fm">Relay FM</a>. 
-              <a href="http://dobyfriday.com">Do By Friday</a>. 
-              <a href="https://us.polaroidoriginals.com">Instant film</a>. 
-              <a href="https://www.instagram.com/chelseafc/">Chelsea FC</a>. 
-              <a href="https://podcasts.apple.com/us/podcast/the-ringer-nba-show/id1109271715">NBA podcasts</a>.
+              <a href="https://designsystemsrepo.com">Design Systems</a>&nbsp;&nbsp;&nbsp; 
+              <a href="https://apps.apple.com/us/app/shortcuts/id1462947752">Siri Shortcuts</a>&nbsp;&nbsp;&nbsp; 
+              <a href="https://www.apple.com/ipados/">iPadOS</a>&nbsp;&nbsp;&nbsp; 
+              <a href="https://airtable.com">AirTable</a>&nbsp;&nbsp;&nbsp; 
+              <a href="https://www.makerpad.co">Nocode tools</a>&nbsp;&nbsp;&nbsp; 
+              <a href="https://www.theringer.com">The Ringer</a>&nbsp;&nbsp;&nbsp; 
+              <a href="https://www.relay.fm">Relay FM</a>&nbsp;&nbsp;&nbsp; 
+              <a href="http://dobyfriday.com">Do By Friday</a>&nbsp;&nbsp;&nbsp; 
+              <a href="https://us.polaroidoriginals.com">Instant film</a>&nbsp;&nbsp;&nbsp; 
+              <a href="https://www.instagram.com/chelseafc/">Chelsea FC</a>&nbsp;&nbsp;&nbsp; 
+              <a href="https://podcasts.apple.com/us/podcast/the-ringer-nba-show/id1109271715">
+                NBA podcasts
+              </a>&nbsp;&nbsp;&nbsp;
             </small>
           </p>
 
