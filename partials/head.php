@@ -27,21 +27,5 @@
   <meta name="keywords" content="Brad Siefert, Bradley Siefert, Nicole Siefert, Product Designer, UI designer, UX designer, UI/UX 
   Designer, photographer, graphic designer, Earlybird, Dose, Spartz, Hitch & Sparrow" />
   <meta name="description" content="Personal design portfolio and blog of UI/UX Designer, Brad Siefert.">
-
-  <!-- Twitter Card data -->
-  <meta name="twitter:card"    content="summary">
-  <meta name="twitter:site"    content="@bksiefert">
-  <meta name="twitter:title"   content="Brad Siefert / UI/UX Designer">
-  <meta name="twitter:creator" content="@bksiefert">
-  <meta name="twitter:image"   content="https://www.brad.si/efert/wp-content/themes/bksv2-theme/images/sharing-tile.jpg">
-
-  <!-- Facebook Share data -->
-  <meta property="og:url" content="https://www.brad.si/efert" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Brad Siefert / UI/UX designer" />
-  <meta property="fb:app_id" content="563001627481127"/>
-  <meta property="og:description" content="Personal design portfolio and blog of product designer, Brad Siefert." />
-  <meta property="og:image" content="https://www.brad.si/efert/wp-content/themes/bksv2-theme/images/sharing-tile.jpg" />
-  
   <?php wp_head(); ?>
 </head>
