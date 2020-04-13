@@ -11103,7 +11103,8 @@ pre {
   letter-spacing: 0;
   line-height: 1.5;
   margin-bottom: 2rem;
-  position: relative; }
+  position: relative;
+  border-radius: 0.5rem; }
 
 .box h3 a {
   color: #121212; }
@@ -11159,7 +11160,8 @@ figcaption {
   font-size: .875rem;
   height: 48px;
   background-color: transparent;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  border-radius: .5rem; }
 
 textarea.form-control {
   min-height: 256px; }
@@ -11207,7 +11209,7 @@ textarea.form-control {
     border-bottom: 1px solid #333333 !important; }
   .box a {
     color: #fff !important; }
-  .box {
+  .box, .form-control {
     border: 1px solid #333333; }
   .form-control,
   .form-control:focus,
@@ -11229,3 +11231,12 @@ textarea.form-control {
 
 .grecaptcha-badge {
   visibility: hidden !important; }
+
+.wpcf7-response-output {
+  border: none !important;
+  padding: .5rem 1rem !important;
+  margin: 1.5rem 0 1.5rem !important;
+  border-radius: 0.5rem; }
+
+.wpcf7-validation-errors, .wpcf7-acceptance-missing {
+  border: 1px solid #f00 !important; }

@@ -525,6 +525,7 @@ pre {
   line-height: 1.5;
   margin-bottom: 2rem;
   position: relative;
+  border-radius: 0.5rem;
 }
 
 .box h3 a {
@@ -597,6 +598,7 @@ figcaption {
   height: 48px;
   background-color: transparent;
   padding: 0.5rem 1rem;
+  border-radius: .5rem;
 }
 
 textarea.form-control {
@@ -658,7 +660,7 @@ textarea.form-control {
     color: $white !important;
   }
 
-  .box {
+  .box, .form-control {
     border: 1px solid $gray-800;
   }
 
@@ -692,6 +694,19 @@ textarea.form-control {
   }
 }
 
+// Contact Form 7 Styling Fixes
+
 .grecaptcha-badge {
   visibility: hidden !important;
+}
+
+.wpcf7-response-output {
+  border: none !important;
+  padding: .5rem 1rem !important;
+  margin: 1.5rem 0 1.5rem !important;
+  border-radius: 0.5rem;
+}
+
+.wpcf7-validation-errors, .wpcf7-acceptance-missing {
+  border: 1px solid #f00 !important;
 }
