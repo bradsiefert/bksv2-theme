@@ -13,9 +13,10 @@
         <article>
           <h2 class="h1">I promise this won’t be in the third person.</h2>
           <p>
-            Hi, I&#8217;m Brad, and I&#8217;m a UI/UX designer experienced in web and mobile app design and front-end 
-            development. I live in the <a href="https://en.wikipedia.org/wiki/East_Garfield_Park,_Chicago">East 
-            Garfield Park</a> neighborhood of Chicago with my wife Nicole and my daughter Lydia.
+            Hi, I&#8217;m Brad, and I&#8217;m a UI/UX designer experienced in designing web apps, mobile apps, 
+            and front-end web development. I live in the 
+            <a href="https://en.wikipedia.org/wiki/East_Garfield_Park,_Chicago">East Garfield Park</a> neighborhood of 
+            Chicago with my wife Nicole and my daughter Lydia.
           </p>
 
           <p>
@@ -49,9 +50,7 @@
               <a href="http://dobyfriday.com">Do By Friday</a>&nbsp;&nbsp;&nbsp; 
               <a href="https://us.polaroidoriginals.com">Instant film</a>&nbsp;&nbsp;&nbsp; 
               <a href="https://www.instagram.com/chelseafc/">Chelsea FC</a>&nbsp;&nbsp;&nbsp; 
-              <a href="https://podcasts.apple.com/us/podcast/the-ringer-nba-show/id1109271715">
-                NBA podcasts
-              </a>&nbsp;&nbsp;&nbsp;
+              <a href="https://podcasts.apple.com/us/podcast/the-ringer-nba-show/id1109271715">NBA podcasts</a>&nbsp;&nbsp;&nbsp;
             </small>
           </p>
 
